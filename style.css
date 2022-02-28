@@ -1,0 +1,128 @@
+/* Default css */
+html, body{
+	font-family: 'Poppins';
+	font-size: 17px;
+	line-height: 1.4;
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+}
+.navbar-brand img{
+    height: 4rem;
+    width: auto;
+}
+.navbar{
+    background: #222;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar a:hover{
+    color: tomato;
+}
+.navbar-toggler{
+    background: tomato;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span{
+    width: 10px;
+    margin-left: 10px;
+}
+   
+.top-slider{
+    background-image: url(./img/building.jpeg);
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #080d15;
+    opacity: .4;
+} */
+.welcome-note{
+    color: #ffffff;
+}
+.btn-danger{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-danger:hover{
+    color: rgb(8, 153, 153);
+}
+.branch-photo img{
+    width: 90%;
+    height: auto;
+}
+.branch-text{
+    text-align: justify;
+}
+.logos img{
+    width: 60%;
+    height: auto;
+}
+.read-more{
+    text-align: center;
+
+}
+.button-primary{
+    background-color: tomato;
+}
+footer{
+    padding-top: 20px;
+    background-color: black;
+}
+.footer-logo img{
+    height: 40px;
+    width: auto;
+}
+footer p{
+    color: #ffffff;
+}
+.social-icon{
+    color:#ffffff;
+    font-size:25px;
+}
+.social-icon a{
+    color: #ffffff;
+}
+.footer-menu ul li{
+    list-style: none;
+    color: #ffffff;
+}
+.footer-menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-menu ul li a:hover{
+    color: tomato;
+}
